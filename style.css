@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    height: 100%;
+}
+
+.header {
+    padding: auto;
+    margin: 0 auto;
+    float: none;
+    max-height: 275px;
+    min-width: 50%;
+
+}
+
+.quote {
+    font-variant: small-caps;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.designPhoto {
+    height: auto;
+    margin-top: 1%;
+    max-width: 100%;
+    max-height: 400px;
+}
+
+.bioPhoto {
+    height: auto;
+    margin-top: 1.8%;
+    max-width: 100%;
+    max-height: 400px;
+}
+
+.descrip {
+    font-variant: small-caps;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 20px auto;
+    width: 90%;
+}
