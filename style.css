@@ -44,3 +44,12 @@ body {
     margin: 20px auto;
     width: 90%;
 }
+
+.galImage {
+    margin: 0 auto 10px;
+}
+
+figure img{
+    width: 100%;
+    height: auto;
+}
