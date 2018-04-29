@@ -82,3 +82,70 @@ figure img{
     width: 100%;
     height: auto;
 }
+
+
+@media only screen and (max-width: 500px) {
+    .content {
+        position: absolute;
+        top: 215px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow-y: scroll;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .content {
+        position: absolute;
+        top: 195px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow-y: scroll;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .content {
+        position: absolute;
+        top: 180px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow-y: scroll;
+    }
+}
+
+@media only screen and (max-width: 413px) {
+    .content {
+        position: absolute;
+        top: 170px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow-y: scroll;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .content {
+        position: absolute;
+        top: 160px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow-y: scroll;
+    }
+}
+
+@media only screen and (max-width: 361px) {
+    .content {
+        position: absolute;
+        top: 148px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow-y: scroll;
+    }
+}
