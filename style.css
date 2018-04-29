@@ -12,6 +12,11 @@ body {
 
 }
 
+.landNav {
+    width: 80%;
+    margin: 0 auto 10px;
+}
+
 .quote {
     font-variant: small-caps;
     font-size: 1.6em;
