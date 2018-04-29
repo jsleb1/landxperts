@@ -10,32 +10,44 @@
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header class = "row">
-        <div class = "col-xs-12 text-center">
+
+<nav class="navbar navbar-inverse navbar-fixed-bottom landNav">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">LandXperts</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#Company">Company</a></li>
+        <li><a href="#Gallery">Gallery</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <header class="row">
+        <div class="col-xs-12 text-center">
         <img src="logogreenyellowPhone3.jpg" class = "col-xs-6 header">
         </div>
     </header>
 
-    <nav class="navbar navbar-inverse landNav">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">LandXperts</a>
-        </div>
-        <ul class="nav navbar-nav">
-          <li><a href="#">Company</a></li>
-          <li><a href="#">Gallery</a></li>
-          <li><a href="#">Contact US</a></li>
-        </ul>
-        <p class="navbar-text">"Providing our customers with original designs, impeccable builds, and outstanding results!" ~ Paul Michael</p>
-      </div>
-    </nav>
-
     <div class="container">
+        <div class="row text-center" id="Company">
+            <p class="quote">"Providing our customers with original designs, impeccable builds, and outstanding results!" ~ Paul Michael</p>
+        </div>
         <div class="row">
         <div class="col-xs-12 col-md-8 text-center">
             <img src="patio-2.jpg" class="designPhoto">
@@ -55,7 +67,7 @@
         </div>
 
         <div class="row">
-            <h2>Gallery</h2>
+            <h2 class="gallery" id="Gallery">Gallery</h2>
             <div class="col-xs-12 col-md-4 galImage">
                 <figure>
                     <img src="pool1.jpg">

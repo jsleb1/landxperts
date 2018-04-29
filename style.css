@@ -3,24 +3,38 @@ body {
     height: 100%;
 }
 
+header {
+    margin: 0 auto;
+    padding: 0;
+}
+
 .header {
     padding: auto;
-    margin: 0 auto;
+    margin: 0 auto 0;
     float: none;
+    height: auto;
+    min-height: 100px;
     max-height: 275px;
-    min-width: 50%;
+    width: auto;
+    max-width: 100%;
 
 }
 
 .landNav {
-    width: 80%;
-    margin: 0 auto 10px;
+    width: 100%;
+    margin: 0 auto 0px;
 }
 
 .quote {
+    border-top: solid 1px grey;
+    border-bottom: solid 2px grey;
+    color: yellow;
     font-variant: small-caps;
-    font-size: 1.6em;
+    font-size: 1.4em;
     font-weight: bold;
+    opacity: 0.6;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .designPhoto {
@@ -38,11 +52,17 @@ body {
 }
 
 .descrip {
+    color: yellow;
     font-variant: small-caps;
     font-size: 1.5em;
     font-weight: bold;
     margin: 20px auto;
+    opacity: 0.7;
     width: 90%;
+}
+
+.gallery {
+    color: green;
 }
 
 .galImage {
